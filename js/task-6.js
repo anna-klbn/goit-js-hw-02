@@ -1,4 +1,3 @@
-
 let input;
 let numbers = [];
 let total = 0;
@@ -28,6 +27,4 @@ if (numbers.length > 0) {
   console.log(`Сума чисел: ${total}`);
 } else {
   console.log("Масив був порожній.");
-}
-
-
+}ж

@@ -1,11 +1,9 @@
 const logItems = function (array) {
-   
+  
     for (const arr of array) {
-        let numberItems = array.indexOf(arr) + 1;
-
-        console.log(`${numberItems} - ${arr}`);
+        console.log(`${array.indexOf(arr) + 1} - ${arr}`);
     }
-}
+};
 
 logItems(["Mango", "Poly", "Ajax", "Lux", "Jay", "Kong"]);
 
